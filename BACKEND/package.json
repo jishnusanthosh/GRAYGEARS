@@ -1,0 +1,19 @@
+{
+  "name": "GRAYGEARS",
+  "version": "1.0.0",
+  "description": "Ecommerce rest api ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Jishnu Santhosh",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
