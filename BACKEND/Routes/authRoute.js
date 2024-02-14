@@ -1,6 +1,7 @@
 import express from 'express'
 import {registerController} from '../Controllers/authController.js'
 import {loginController} from '../Controllers/authController.js'
+import { requireSignIn } from '../Middlewares/authMiddleware.js';
 
 //router object
 
